@@ -1,0 +1,290 @@
+/*Navbar*/
+/*********
+
+
+*/
+
+/*Navbar brand name*/
+.brand{
+    position: absolute;
+    width: 187px; 
+    height: 58px;
+    left: calc(50% - 187px/2-587px);
+    top: 0px;
+}
+.brand p{
+    position: absolute;
+    width: 116px;
+    height: 32px;
+    left: 0px;
+    top: 1px;
+    color: #252b42;
+}
+.brand h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+}
+
+/**/
+
+/*Navbar whole*/
+nav{
+    position: absolute;
+    width: 1437px;
+    height: 58px;
+    left: 38px;
+    top: 0px;
+  /*  display: flex;
+    justify-content: space-between;*/
+}
+.container{
+    position: absolute;
+    width: 1155px;
+    height: 58px;
+    left: calc(50% - 1155px/2 + 124px);
+    top: -12px;
+}
+
+/**/
+
+/*Navbar left*/
+.flexitem  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13px;
+
+    position: absolute;
+    width: 361px;
+    height: 25px;
+    left: 0px;
+    top: calc(50% - 25px/2);
+    
+    
+
+}
+.flexitem li{
+    width: 33px;
+    height: 40px;
+    flex: none;   
+    flex-grow: 0;
+    list-style: none;
+    float: left;
+}
+
+.flexitem a{
+    text-decoration: none;
+    position: absolute;
+        width: 43px;
+        height: 24px;
+        
+}
+.flexitem span {
+    position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        /* link */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* second-text-color */
+    
+        color: #737373;
+}
+
+/**/
+
+/*Navbar right*/
+.flexitems-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 324px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+
+}
+/* .right li{
+    height: 54px;
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+    
+} */
+
+/**/
+
+/*SVG Icons styling*/
+.cartIcon-svg  ,.likeIcon-svg ,.searchIcon-svg {
+        width: 44px;
+        height: 16px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.login-reg{
+        width: 119px;
+        height: 24px;
+    
+        /* link */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* primary-color */
+    
+        color: #23A6F0;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+/**/
+
+/*button styling*/
+.btn-32{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        gap: 5px;
+    
+        position: relative;
+        width: 166px;
+        height: 54px;
+        left: 0px;
+        top: 0px; 
+    
+        border-radius: 37px; 
+        border: none;
+        background-color: #ddd;
+        outline: none;
+        cursor: pointer;
+        background: none;
+        
+}
+btn-32 :hover, .btn-33:hover , .btn-34:hover, .btn-35:hover{
+    cursor: pointer;
+}
+/**/
+
+/*Add to Cart , Like number Styling*/
+.cart-like{
+        width: 5px;
+        height: 16px;
+    
+        /* small */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: large;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+    
+        text-align: center;
+        letter-spacing: 0.2px;
+    
+        /* primary-color */
+    
+        color: #23A6F0;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.btn-33, .btn-34 , .btn-35{
+    display: flex;
+flex-direction: row;
+align-items: center;
+
+gap: 5px;
+
+position: relative;
+width: 56px;
+height: 46px;
+left: 0px;
+top: 0px;
+
+border-radius: 37px;
+border: none;
+background: none;
+}
+
+
+
+.left{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+width: 361px;
+height: 25px;
+left: 0px;
+top: calc(50% - 25px/2);
+
+}
+.right{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 324px;
+height: 54px;
+left: 690px;
+top: calc(50% - 54px/2);
+}
+
+
+.main-links{
+    width: 56px;
+height: 46px;
+left: 0px;
+top: 0px;
+position: relative;
+}
+.main-links-login{
+    width: 166px;
+height: 54px;
+left: 0px;
+top: 0px;
+position: relative;
+}
+/**/
